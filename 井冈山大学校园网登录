@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  用于井冈山大学校园网快速登录
 // @author       You
-// @match        http://192.168.167.*/*
+// @match        http://192.168.167.*/a79.htm?wlanuserip=*.*.*.*&wlanacname=
 // @icon         https://www.google.com/s2/favicons?domain=167.42
 // @grant        none
 // @license MIT
