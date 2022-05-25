@@ -1,0 +1,23 @@
+// ==UserScript==
+// @name         井冈山大学校园网登录
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  用于井冈山大学校园网快速登录
+// @author       You
+// @match        http://192.168.167.*/*
+// @icon         https://www.google.com/s2/favicons?domain=167.42
+// @grant        none
+// @license MIT
+// ==/UserScript==
+
+var user_account="账号"
+var user_password="密码"
+
+(function() {
+    'use strict';
+
+    // Your code here...
+    document.querySelector('#edit_body > div:nth-child(3) > div > form > input:nth-child(4)').value=user_account
+    document.querySelector('#edit_body > div:nth-child(3) > div > form > input:nth-child(5)').value=user_password
+    document.querySelector('#edit_body > div:nth-child(3) > div > form > input:nth-child(2)').click()
+})();
